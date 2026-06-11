@@ -1,3 +1,4 @@
+
 #way1
 a=float(input("enter a number"))
 b=float(input("enter a number"))
@@ -11,15 +12,16 @@ print("x1=" , x1)
 print("x2=" , x2)
 
 
-
 # way2 -
 a=float(input("enter a number"))
 b=float(input("enter a number"))
 c=float(input("enter a number"))
 import math  as m
-d=(b**2)-(4*a*c)
+d=(b*b)-(4*a*c)
 if d<0:
     print("no real roots")
+elif d==0:
+    print("real and equal roots")
 else:
     x1=((-b + m.sqrt(d))/(2*a))
     x2=((-b - m.sqrt(d))/(2*a))
