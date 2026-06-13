@@ -16,7 +16,6 @@ else:
     print("c is greatest")
 
 
-
 # way2
 a=int(input("Enter a number:"))
 b=int(input("Enter a number:"))
