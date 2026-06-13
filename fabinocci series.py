@@ -1,0 +1,11 @@
+f = int(input("Enter a number: "))
+s = int(input("Enter a number: "))
+n = int(input("Enter number of terms you want"))
+i=1
+print(f,",",s,end='')
+while i <= n:
+    t=f+s
+    print(",",t,end='')
+    f=s
+    s=t
+    i=i+1
